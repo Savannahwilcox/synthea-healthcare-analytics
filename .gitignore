@@ -1,0 +1,14 @@
+# Raw FHIR bundles (555 JSON files, ~95MB) — synthetic, not privacy-sensitive,
+# just too large/bulky to be worth committing. README explains how to re-download.
+data/raw_fhir/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
