@@ -1,7 +1,7 @@
 # EHR Interoperability & Data Quality Audit
 
 A data-quality and population-health audit of a synthetic EHR population, built on
-FHIR R4 — the data standard real electronic health record systems use to exchange
+FHIR R4: the data standard real electronic health record systems use to exchange
 patient information. No real patient data is used anywhere in this project.
 
 ## Data source
@@ -56,13 +56,12 @@ specifically so people can build and test health data tools without any real PHI
 
 ## Tech stack
 
-Python, pandas, Jupyter, matplotlib, seaborn. No external APIs or paid tools — just the
-raw FHIR JSON and open-source Python libraries.
+Python, pandas, Jupyter, matplotlib, seaborn. 
 
 ## Why this project
 
 Most public health data portfolios work with already-tabular data (CSVs, SQL tables).
-This project starts one level lower — parsing the actual data *format* that EHR systems
-exchange in the real world — to demonstrate comfort with healthcare data standards
+This project starts one level lower, parsing the actual data *format* that EHR systems
+exchange in the real world, to demonstrate comfort with healthcare data standards
 (FHIR, SNOMED-CT, LOINC, RxNorm, CVX, ICD-10) that show up constantly in health IT and
 health data analyst roles, not just the analysis layer on top of them.
